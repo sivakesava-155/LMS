@@ -1,0 +1,468 @@
+info: 2023-08-03 11:43:41 : server/Thursday, August 3rd, 2023, 11:43:41 AM
+info: 2023-08-03 11:44:00 : serverjs:Roaster
+info: 2023-08-03 11:44:00 : No records available for today to run scheduler
+info: 2023-08-03 11:45:00 : serverjs:Roaster
+info: 2023-08-03 11:45:00 : No records available for today to run scheduler
+info: 2023-08-03 11:46:01 : serverjs:Roaster
+info: 2023-08-03 11:46:01 : No records available for today to run scheduler
+info: 2023-08-03 11:47:00 : serverjs:Roaster
+info: 2023-08-03 11:47:00 : No records available for today to run scheduler
+info: 2023-08-03 11:47:30 :  serverjs:Menu
+info: 2023-08-03 11:47:31 : IP 183.82.100.162 login userid : 4
+info: 2023-08-03 11:47:32 :  serverjs:Menu
+info: 2023-08-03 11:47:32 : Input for updUserLastVisitedDate, User: 4 LastVisited:  08/03/2023
+info: 2023-08-03 11:47:32 :  serverjs:Menu
+info: 2023-08-03 11:47:33 :  serverjs: getInviteCustomer
+info: 2023-08-03 11:47:33 :  serverjs:getfarmdatabaseduponmultiplefarmcode
+info: 2023-08-03 11:47:37 : serverjs:getCustomerCartData
+info: 2023-08-03 11:47:37 :  serverjs:getfarmdataandproducts
+info: 2023-08-03 11:47:42 :  serverjs:getFarmUserid 
+info: 2023-08-03 11:47:42 :  serverjs:getfarmcodewithuserid
+info: 2023-08-03 11:47:42 : serverjs:getCustomerCartDataImage
+info: 2023-08-03 11:47:43 :  serverjs: getPublishableKey
+info: 2023-08-03 11:47:43 :  serverjs:getConnectedAccountDetails 
+info: 2023-08-03 11:47:47 :  serverjs:getFarmUserid 
+info: 2023-08-03 11:47:47 :  serverjs:getConnectedAccountDetails 
+info: 2023-08-03 11:47:47 :  serverjs:getCustomerCards
+info: 2023-08-03 11:47:47 : serverjs:getCustomerCartDataandkey
+info: 2023-08-03 11:47:48 :  serverjs:getCountrylist
+info: 2023-08-03 11:47:48 : getCountrylist starting:Thursday, August 3rd, 2023, 11:47:48 AM
+info: 2023-08-03 11:47:48 : getCountrylist after connecting:Thursday, August 3rd, 2023, 11:47:48 AM
+info: 2023-08-03 11:47:48 : getCountrylist after getting result from query:Thursday, August 3rd, 2023, 11:47:48 AM
+info: 2023-08-03 11:47:48 : getCountrylist after sending response UI:Thursday, August 3rd, 2023, 11:47:48 AM
+info: 2023-08-03 11:47:48 : getCountrylist before connection release:Thursday, August 3rd, 2023, 11:47:48 AM
+info: 2023-08-03 11:47:48 : getCountrylist after connection release:Thursday, August 3rd, 2023, 11:47:48 AM
+info: 2023-08-03 11:47:48 :  serverjs:getCountryStatelist
+info: 2023-08-03 11:47:48 : getCountryStatelist starting:Thursday, August 3rd, 2023, 11:47:48 AM
+info: 2023-08-03 11:47:48 : getCountryStatelist after connecting:Thursday, August 3rd, 2023, 11:47:48 AM
+info: 2023-08-03 11:47:48 : getCountryStatelist after getting result from query:Thursday, August 3rd, 2023, 11:47:48 AM
+info: 2023-08-03 11:47:48 : getCountryStatelist after sending response UI:Thursday, August 3rd, 2023, 11:47:48 AM
+info: 2023-08-03 11:47:48 : getCountryStatelist before connection release:Thursday, August 3rd, 2023, 11:47:48 AM
+info: 2023-08-03 11:47:48 : getCountryStatelist after connection release:Thursday, August 3rd, 2023, 11:47:48 AM
+info: 2023-08-03 11:47:48 : Input for getUserDetails 4
+info: 2023-08-03 11:47:48 : getUserDetails starting: Thursday, August 3rd, 2023, 11:47:48 AM
+info: 2023-08-03 11:47:48 : getUserDetails after connecting: Thursday, August 3rd, 2023, 11:47:48 AM
+info: 2023-08-03 11:47:49 : getUserDetails after getting result from query:Thursday, August 3rd, 2023, 11:47:49 AM
+info: 2023-08-03 11:47:49 : getUserDetails before sending response UI:Thursday, August 3rd, 2023, 11:47:49 AM
+info: 2023-08-03 11:47:49 : getUserDetails after sending response UI:Thursday, August 3rd, 2023, 11:47:49 AM
+info: 2023-08-03 11:47:49 :  serverjs:getCountryStatelist
+info: 2023-08-03 11:47:49 : getCountryStatelist starting:Thursday, August 3rd, 2023, 11:47:49 AM
+info: 2023-08-03 11:47:49 : getCountryStatelist after connecting:Thursday, August 3rd, 2023, 11:47:49 AM
+info: 2023-08-03 11:47:49 : getCountryStatelist after getting result from query:Thursday, August 3rd, 2023, 11:47:49 AM
+info: 2023-08-03 11:47:49 : getCountryStatelist after sending response UI:Thursday, August 3rd, 2023, 11:47:49 AM
+info: 2023-08-03 11:47:49 : getCountryStatelist before connection release:Thursday, August 3rd, 2023, 11:47:49 AM
+info: 2023-08-03 11:47:49 : getCountryStatelist after connection release:Thursday, August 3rd, 2023, 11:47:49 AM
+info: 2023-08-03 11:47:49 :  serverjs:getfarmdataandproducts
+info: 2023-08-03 11:48:00 : serverjs:Roaster
+info: 2023-08-03 11:48:00 : No records available for today to run scheduler
+info: 2023-08-03 11:48:41 :  serverjs:getFarmUserid 
+info: 2023-08-03 11:48:41 :  serverjs:getfarmcodewithuserid
+info: 2023-08-03 11:48:42 : serverjs:getCustomerCartDataImage
+info: 2023-08-03 11:49:00 : serverjs:Roaster
+info: 2023-08-03 11:49:00 : No records available for today to run scheduler
+info: 2023-08-03 11:50:00 : serverjs:Roaster
+info: 2023-08-03 11:50:00 : No records available for today to run scheduler
+info: 2023-08-03 11:50:12 :  serverjs:Menu
+info: 2023-08-03 11:50:13 : IP 183.82.100.162 login userid : 2
+info: 2023-08-03 11:50:13 :  serverjs:getfarmcodewithuserid
+info: 2023-08-03 11:50:14 : serverjs:OrderCount
+info: 2023-08-03 11:50:15 :  serverjs:getfarmcodewithuserid
+info: 2023-08-03 11:50:15 : serverjs:OrderCount
+info: 2023-08-03 11:50:15 :  serverjs:Menu
+info: 2023-08-03 11:50:15 : Input for updUserLastVisitedDate, User: 2 LastVisited:  08/03/2023
+info: 2023-08-03 11:50:15 : 1/serverjs:getCancelOrderMonthwiseTaskdataThursday, August 3rd, 2023, 11:50:15 AM
+info: 2023-08-03 11:50:15 : 2/getCancelOrderMonthwiseTaskdata connection establishThursday, August 3rd, 2023, 11:50:15 AM
+info: 2023-08-03 11:50:15 : 3/getCancelOrderMonthwiseTaskdata connection establishThursday, August 3rd, 2023, 11:50:15 AM
+info: 2023-08-03 11:50:15 : 4/getCancelOrderMonthwiseTaskdata after query excutedThursday, August 3rd, 2023, 11:50:15 AM
+info: 2023-08-03 11:50:15 : 6/getCancelOrderMonthwiseTaskdata connection releaseThursday, August 3rd, 2023, 11:50:15 AM
+info: 2023-08-03 11:50:15 :  serverjs:Menu
+info: 2023-08-03 11:50:15 :  serverjs:getConnectedAccountDetails 
+info: 2023-08-03 11:50:16 : serverjs:createConnectedAccountCustomersForInactiveCustomers
+
+
+
+
+info: 2023-08-03 11:50:36 : Input for getUserDetails 2
+info: 2023-08-03 11:50:36 : getUserDetails starting: Thursday, August 3rd, 2023, 11:50:36 AM
+info: 2023-08-03 11:50:36 : getUserDetails after connecting: Thursday, August 3rd, 2023, 11:50:36 AM
+info: 2023-08-03 11:50:36 : getCountryLisData: 1 UI calling: 08-03-2023 05:20:35
+info: 2023-08-03 11:50:36 : getUserDetails after getting result from query:Thursday, August 3rd, 2023, 11:50:36 AM
+info: 2023-08-03 11:50:36 : getUserDetails before sending response UI:Thursday, August 3rd, 2023, 11:50:36 AM
+info: 2023-08-03 11:50:36 : getUserDetails after sending response UI:Thursday, August 3rd, 2023, 11:50:36 AM
+info: 2023-08-03 11:50:36 : getUsersData: 1 UI calling: 08-03-2023 05:20:35
+info: 2023-08-03 11:50:36 :  serverjs:getCountrylist
+info: 2023-08-03 11:50:36 : getCountrylist starting:Thursday, August 3rd, 2023, 11:50:36 AM
+info: 2023-08-03 11:50:36 : getCountrylist after connecting:Thursday, August 3rd, 2023, 11:50:36 AM
+info: 2023-08-03 11:50:36 : getCountrylist after getting result from query:Thursday, August 3rd, 2023, 11:50:36 AM
+info: 2023-08-03 11:50:36 : getCountrylist after sending response UI:Thursday, August 3rd, 2023, 11:50:36 AM
+info: 2023-08-03 11:50:36 : getCountrylist before connection release:Thursday, August 3rd, 2023, 11:50:36 AM
+info: 2023-08-03 11:50:36 : getCountrylist after connection release:Thursday, August 3rd, 2023, 11:50:36 AM
+info: 2023-08-03 11:50:36 : getStatesLisData: 1 UI calling: 08-03-2023 05:20:35
+info: 2023-08-03 11:50:57 :  serverjs:getCountryStatelist
+info: 2023-08-03 11:50:57 : getCountryStatelist starting:Thursday, August 3rd, 2023, 11:50:57 AM
+info: 2023-08-03 11:50:57 : getCountryStatelist after connecting:Thursday, August 3rd, 2023, 11:50:57 AM
+info: 2023-08-03 11:50:57 : getCountryStatelist after getting result from query:Thursday, August 3rd, 2023, 11:50:57 AM
+info: 2023-08-03 11:50:57 : getCountryStatelist after sending response UI:Thursday, August 3rd, 2023, 11:50:57 AM
+info: 2023-08-03 11:50:57 : getCountryStatelist before connection release:Thursday, August 3rd, 2023, 11:50:57 AM
+info: 2023-08-03 11:50:57 : getCountryStatelist after connection release:Thursday, August 3rd, 2023, 11:50:57 AM
+info: 2023-08-03 11:50:57 : getUsersData: 2 UI calling: 08-03-2023 05:20:36
+info: 2023-08-03 11:50:57 : getCountryLisData: 2 UI calling: 08-03-2023 05:20:36
+info: 2023-08-03 11:50:57 : getStatesLisData: 2 UI calling: 08-03-2023 05:20:57
+info: 2023-08-03 11:51:00 : serverjs:Roaster
+info: 2023-08-03 11:51:00 : No records available for today to run scheduler
+info: 2023-08-03 11:51:50 :  serverjs:Menu
+info: 2023-08-03 11:51:50 : 1/serverjs:getCancelOrderMonthwiseTaskdataThursday, August 3rd, 2023, 11:51:50 AM
+info: 2023-08-03 11:51:50 : 2/getCancelOrderMonthwiseTaskdata connection establishThursday, August 3rd, 2023, 11:51:50 AM
+info: 2023-08-03 11:51:50 : 3/getCancelOrderMonthwiseTaskdata connection establishThursday, August 3rd, 2023, 11:51:50 AM
+info: 2023-08-03 11:51:50 : 4/getCancelOrderMonthwiseTaskdata after query excutedThursday, August 3rd, 2023, 11:51:50 AM
+info: 2023-08-03 11:51:50 : 6/getCancelOrderMonthwiseTaskdata connection releaseThursday, August 3rd, 2023, 11:51:50 AM
+info: 2023-08-03 11:51:50 : serverjs:OrderCount
+
+
+
+info: 2023-08-03 11:51:50 :  serverjs:getfarmcodewithuserid
+info: 2023-08-03 11:51:51 :  serverjs:getConnectedAccountDetails 
+info: 2023-08-03 11:51:51 : serverjs:createConnectedAccountCustomersForInactiveCustomers
+info: 2023-08-03 11:51:59 : getUsersData: 1 UI calling: 08-03-2023 05:21:58
+info: 2023-08-03 11:51:59 :  serverjs:getCountrylist
+info: 2023-08-03 11:51:59 : getCountrylist starting:Thursday, August 3rd, 2023, 11:51:59 AM
+info: 2023-08-03 11:51:59 : getCountrylist after connecting:Thursday, August 3rd, 2023, 11:51:59 AM
+info: 2023-08-03 11:51:59 : getCountrylist after getting result from query:Thursday, August 3rd, 2023, 11:51:59 AM
+info: 2023-08-03 11:51:59 : getCountrylist after sending response UI:Thursday, August 3rd, 2023, 11:51:59 AM
+info: 2023-08-03 11:51:59 : getCountrylist before connection release:Thursday, August 3rd, 2023, 11:51:59 AM
+info: 2023-08-03 11:51:59 : getCountrylist after connection release:Thursday, August 3rd, 2023, 11:51:59 AM
+info: 2023-08-03 11:51:59 :  serverjs:getCountryStatelist
+info: 2023-08-03 11:51:59 : getCountryStatelist starting:Thursday, August 3rd, 2023, 11:51:59 AM
+info: 2023-08-03 11:51:59 : getCountryStatelist after connecting:Thursday, August 3rd, 2023, 11:51:59 AM
+info: 2023-08-03 11:51:59 : getCountryStatelist after getting result from query:Thursday, August 3rd, 2023, 11:51:59 AM
+info: 2023-08-03 11:51:59 : getCountryStatelist after sending response UI:Thursday, August 3rd, 2023, 11:51:59 AM
+info: 2023-08-03 11:51:59 : getCountryStatelist before connection release:Thursday, August 3rd, 2023, 11:51:59 AM
+info: 2023-08-03 11:51:59 : getCountryStatelist after connection release:Thursday, August 3rd, 2023, 11:51:59 AM
+info: 2023-08-03 11:51:59 : getCountryLisData: 1 UI calling: 08-03-2023 05:21:58
+info: 2023-08-03 11:51:59 : Input for getUserDetails 2
+info: 2023-08-03 11:51:59 : getUserDetails starting: Thursday, August 3rd, 2023, 11:51:59 AM
+info: 2023-08-03 11:51:59 : getUserDetails after connecting: Thursday, August 3rd, 2023, 11:51:59 AM
+info: 2023-08-03 11:51:59 : getStatesLisData: 1 UI calling: 08-03-2023 05:21:58
+info: 2023-08-03 11:51:59 : getUserDetails after getting result from query:Thursday, August 3rd, 2023, 11:51:59 AM
+info: 2023-08-03 11:51:59 : getUserDetails before sending response UI:Thursday, August 3rd, 2023, 11:51:59 AM
+info: 2023-08-03 11:51:59 : getUserDetails after sending response UI:Thursday, August 3rd, 2023, 11:51:59 AM
+info: 2023-08-03 11:51:59 : getCountryLisData: 2 UI calling: 08-03-2023 05:21:59
+info: 2023-08-03 11:51:59 : getStatesLisData: 2 UI calling: 08-03-2023 05:21:59
+info: 2023-08-03 11:51:59 : getUsersData: 2 UI calling: 08-03-2023 05:21:59
+info: 2023-08-03 11:52:00 : serverjs:Roaster
+info: 2023-08-03 11:52:00 : No records available for today to run scheduler
+info: 2023-08-03 11:52:39 :  serverjs:Menu
+info: 2023-08-03 11:53:00 :  serverjs:Menu
+info: 2023-08-03 11:53:00 : 1/serverjs:getCancelOrderMonthwiseTaskdataThursday, August 3rd, 2023, 11:53:00 AM
+info: 2023-08-03 11:53:00 : 2/getCancelOrderMonthwiseTaskdata connection establishThursday, August 3rd, 2023, 11:53:00 AM
+info: 2023-08-03 11:53:00 : 3/getCancelOrderMonthwiseTaskdata connection establishThursday, August 3rd, 2023, 11:53:00 AM
+info: 2023-08-03 11:53:00 : 4/getCancelOrderMonthwiseTaskdata after query excutedThursday, August 3rd, 2023, 11:53:00 AM
+info: 2023-08-03 11:53:00 : 6/getCancelOrderMonthwiseTaskdata connection releaseThursday, August 3rd, 2023, 11:53:00 AM
+info: 2023-08-03 11:53:00 :  serverjs:getfarmcodewithuserid
+info: 2023-08-03 11:53:00 : serverjs:OrderCount
+info: 2023-08-03 11:53:00 : serverjs:Roaster
+info: 2023-08-03 11:53:00 : No records available for today to run scheduler
+info: 2023-08-03 11:53:00 :  serverjs:getConnectedAccountDetails 
+info: 2023-08-03 11:53:01 : serverjs:createConnectedAccountCustomersForInactiveCustomers
+info: 2023-08-03 11:54:00 : serverjs:Roaster
+info: 2023-08-03 11:54:00 : No records available for today to run scheduler
+info: 2023-08-03 11:55:00 : serverjs:Roaster
+info: 2023-08-03 11:55:00 : No records available for today to run scheduler
+info: 2023-08-03 11:56:00 : serverjs:Roaster
+info: 2023-08-03 11:56:00 : No records available for today to run scheduler
+info: 2023-08-03 11:57:00 : serverjs:Roaster
+info: 2023-08-03 11:57:00 : No records available for today to run scheduler
+info: 2023-08-03 11:58:00 : serverjs:Roaster
+info: 2023-08-03 11:58:00 : No records available for today to run scheduler
+info: 2023-08-03 11:59:00 : serverjs:Roaster
+info: 2023-08-03 11:59:00 : No records available for today to run scheduler
+info: 2023-08-03 12:00:00 : serverjs:Roaster
+info: 2023-08-03 12:00:00 : No records available for today to run scheduler
+info: 2023-08-03 12:01:00 : serverjs:Roaster
+info: 2023-08-03 12:01:00 : No records available for today to run scheduler
+info: 2023-08-03 12:02:00 : serverjs:Roaster
+info: 2023-08-03 12:02:00 : No records available for today to run scheduler
+info: 2023-08-03 12:03:00 : serverjs:Roaster
+info: 2023-08-03 12:03:00 : No records available for today to run scheduler
+info: 2023-08-03 12:04:00 : serverjs:Roaster
+info: 2023-08-03 12:04:00 : No records available for today to run scheduler
+info: 2023-08-03 12:05:00 : serverjs:Roaster
+info: 2023-08-03 12:05:00 : No records available for today to run scheduler
+info: 2023-08-03 12:05:38 : getUsersData: 1 UI calling: 08-03-2023 05:34:54
+info: 2023-08-03 12:05:38 : Input for getUserDetails 2
+info: 2023-08-03 12:05:38 : getUserDetails starting: Thursday, August 3rd, 2023, 12:05:38 PM
+info: 2023-08-03 12:05:38 : getCountryLisData: 1 UI calling: 08-03-2023 05:34:54
+info: 2023-08-03 12:05:38 : getUserDetails after connecting: Thursday, August 3rd, 2023, 12:05:38 PM
+info: 2023-08-03 12:05:38 : getUserDetails after getting result from query:Thursday, August 3rd, 2023, 12:05:38 PM
+info: 2023-08-03 12:05:38 : getUserDetails before sending response UI:Thursday, August 3rd, 2023, 12:05:38 PM
+info: 2023-08-03 12:05:38 : getUserDetails after sending response UI:Thursday, August 3rd, 2023, 12:05:38 PM
+info: 2023-08-03 12:05:38 :  serverjs:getCountrylist
+info: 2023-08-03 12:05:38 : getCountrylist starting:Thursday, August 3rd, 2023, 12:05:38 PM
+info: 2023-08-03 12:05:38 : getCountrylist after connecting:Thursday, August 3rd, 2023, 12:05:38 PM
+info: 2023-08-03 12:05:38 : getCountrylist after getting result from query:Thursday, August 3rd, 2023, 12:05:38 PM
+info: 2023-08-03 12:05:38 : getCountrylist after sending response UI:Thursday, August 3rd, 2023, 12:05:38 PM
+info: 2023-08-03 12:05:38 : getCountrylist before connection release:Thursday, August 3rd, 2023, 12:05:38 PM
+info: 2023-08-03 12:05:38 : getCountrylist after connection release:Thursday, August 3rd, 2023, 12:05:38 PM
+info: 2023-08-03 12:05:38 : getStatesLisData: 1 UI calling: 08-03-2023 05:34:54
+info: 2023-08-03 12:05:38 :  serverjs:getCountryStatelist
+info: 2023-08-03 12:05:38 : getCountryStatelist starting:Thursday, August 3rd, 2023, 12:05:38 PM
+info: 2023-08-03 12:05:38 : getCountryStatelist after connecting:Thursday, August 3rd, 2023, 12:05:38 PM
+info: 2023-08-03 12:05:38 : getCountryStatelist after getting result from query:Thursday, August 3rd, 2023, 12:05:38 PM
+info: 2023-08-03 12:05:38 : getCountryStatelist after sending response UI:Thursday, August 3rd, 2023, 12:05:38 PM
+info: 2023-08-03 12:05:38 : getCountryStatelist before connection release:Thursday, August 3rd, 2023, 12:05:38 PM
+info: 2023-08-03 12:05:38 : getCountryStatelist after connection release:Thursday, August 3rd, 2023, 12:05:38 PM
+info: 2023-08-03 12:05:38 : getUsersData: 2 UI calling: 08-03-2023 05:35:37
+info: 2023-08-03 12:05:38 : getCountryLisData: 2 UI calling: 08-03-2023 05:35:37
+info: 2023-08-03 12:05:38 : getStatesLisData: 2 UI calling: 08-03-2023 05:35:37
+
+
+info: 2023-08-03 12:06:00 : serverjs:Roaster
+info: 2023-08-03 12:06:00 : No records available for today to run scheduler
+info: 2023-08-03 12:06:38 :  serverjs:Menu
+info: 2023-08-03 12:06:38 : 1/serverjs:getCancelOrderMonthwiseTaskdataThursday, August 3rd, 2023, 12:06:38 PM
+info: 2023-08-03 12:06:38 : 2/getCancelOrderMonthwiseTaskdata connection establishThursday, August 3rd, 2023, 12:06:38 PM
+info: 2023-08-03 12:06:38 : 3/getCancelOrderMonthwiseTaskdata connection establishThursday, August 3rd, 2023, 12:06:38 PM
+info: 2023-08-03 12:06:38 :  serverjs:getfarmcodewithuserid
+info: 2023-08-03 12:06:38 : 4/getCancelOrderMonthwiseTaskdata after query excutedThursday, August 3rd, 2023, 12:06:38 PM
+info: 2023-08-03 12:06:38 : 6/getCancelOrderMonthwiseTaskdata connection releaseThursday, August 3rd, 2023, 12:06:38 PM
+info: 2023-08-03 12:06:38 : serverjs:OrderCount
+info: 2023-08-03 12:06:39 :  serverjs:getConnectedAccountDetails 
+info: 2023-08-03 12:06:39 : serverjs:createConnectedAccountCustomersForInactiveCustomers
+info: 2023-08-03 12:07:00 : serverjs:Roaster
+info: 2023-08-03 12:07:00 : No records available for today to run scheduler
+info: 2023-08-03 12:07:01 : serverjs:pagegetCustomerCatalogsData
+info: 2023-08-03 12:07:57 :  serverjs:Menu
+info: 2023-08-03 12:07:57 : 1/serverjs:getCancelOrderMonthwiseTaskdataThursday, August 3rd, 2023, 12:07:57 PM
+info: 2023-08-03 12:07:57 : 2/getCancelOrderMonthwiseTaskdata connection establishThursday, August 3rd, 2023, 12:07:57 PM
+info: 2023-08-03 12:07:57 : 3/getCancelOrderMonthwiseTaskdata connection establishThursday, August 3rd, 2023, 12:07:57 PM
+info: 2023-08-03 12:07:57 : 4/getCancelOrderMonthwiseTaskdata after query excutedThursday, August 3rd, 2023, 12:07:57 PM
+info: 2023-08-03 12:07:57 : 6/getCancelOrderMonthwiseTaskdata connection releaseThursday, August 3rd, 2023, 12:07:57 PM
+info: 2023-08-03 12:07:58 :  serverjs:getfarmcodewithuserid
+info: 2023-08-03 12:07:58 : serverjs:OrderCount
+
+
+
+
+info: 2023-08-03 12:07:58 :  serverjs:getConnectedAccountDetails 
+info: 2023-08-03 12:07:59 : serverjs:createConnectedAccountCustomersForInactiveCustomers
+info: 2023-08-03 12:08:00 : serverjs:Roaster
+info: 2023-08-03 12:08:00 : No records available for today to run scheduler
+info: 2023-08-03 12:08:11 : getUsersData: 1 UI calling: 08-03-2023 05:38:09
+info: 2023-08-03 12:08:39 : getCountryLisData: 1 UI calling: 08-03-2023 05:38:09
+info: 2023-08-03 12:08:39 : Input for getUserDetails 2
+info: 2023-08-03 12:08:39 : getUserDetails starting: Thursday, August 3rd, 2023, 12:08:39 PM
+info: 2023-08-03 12:08:39 : getUserDetails after connecting: Thursday, August 3rd, 2023, 12:08:39 PM
+info: 2023-08-03 12:08:39 : getUserDetails after getting result from query:Thursday, August 3rd, 2023, 12:08:39 PM
+info: 2023-08-03 12:08:39 : getUserDetails before sending response UI:Thursday, August 3rd, 2023, 12:08:39 PM
+info: 2023-08-03 12:08:39 : getUserDetails after sending response UI:Thursday, August 3rd, 2023, 12:08:39 PM
+info: 2023-08-03 12:08:39 :  serverjs:getCountrylist
+info: 2023-08-03 12:08:39 : getCountrylist starting:Thursday, August 3rd, 2023, 12:08:39 PM
+info: 2023-08-03 12:08:39 : getCountrylist after connecting:Thursday, August 3rd, 2023, 12:08:39 PM
+info: 2023-08-03 12:08:39 : getCountrylist after getting result from query:Thursday, August 3rd, 2023, 12:08:39 PM
+info: 2023-08-03 12:08:39 : getCountrylist after sending response UI:Thursday, August 3rd, 2023, 12:08:39 PM
+info: 2023-08-03 12:08:39 : getCountrylist before connection release:Thursday, August 3rd, 2023, 12:08:39 PM
+info: 2023-08-03 12:08:39 : getCountrylist after connection release:Thursday, August 3rd, 2023, 12:08:39 PM
+info: 2023-08-03 12:08:39 : getStatesLisData: 1 UI calling: 08-03-2023 05:38:09
+info: 2023-08-03 12:08:39 :  serverjs:getCountryStatelist
+info: 2023-08-03 12:08:39 : getCountryStatelist starting:Thursday, August 3rd, 2023, 12:08:39 PM
+info: 2023-08-03 12:08:39 : getCountryStatelist after connecting:Thursday, August 3rd, 2023, 12:08:39 PM
+info: 2023-08-03 12:08:39 : getCountryStatelist after getting result from query:Thursday, August 3rd, 2023, 12:08:39 PM
+info: 2023-08-03 12:08:39 : getCountryStatelist after sending response UI:Thursday, August 3rd, 2023, 12:08:39 PM
+info: 2023-08-03 12:08:39 : getCountryStatelist before connection release:Thursday, August 3rd, 2023, 12:08:39 PM
+info: 2023-08-03 12:08:39 : getCountryStatelist after connection release:Thursday, August 3rd, 2023, 12:08:39 PM
+info: 2023-08-03 12:08:39 : getUsersData: 2 UI calling: 08-03-2023 05:38:39
+info: 2023-08-03 12:08:39 : getStatesLisData: 2 UI calling: 08-03-2023 05:38:39
+info: 2023-08-03 12:08:40 : getCountryLisData: 2 UI calling: 08-03-2023 05:38:39
+info: 2023-08-03 12:09:00 : serverjs:Roaster
+info: 2023-08-03 12:09:00 : No records available for today to run scheduler
+info: 2023-08-03 12:09:49 :  serverjs:Menu
+info: 2023-08-03 12:09:49 : serverjs:OrderCount
+info: 2023-08-03 12:09:49 :  serverjs:getfarmcodewithuserid
+info: 2023-08-03 12:09:49 : 1/serverjs:getCancelOrderMonthwiseTaskdataThursday, August 3rd, 2023, 12:09:49 PM
+info: 2023-08-03 12:09:49 : 2/getCancelOrderMonthwiseTaskdata connection establishThursday, August 3rd, 2023, 12:09:49 PM
+info: 2023-08-03 12:09:49 : 3/getCancelOrderMonthwiseTaskdata connection establishThursday, August 3rd, 2023, 12:09:49 PM
+info: 2023-08-03 12:09:49 : 4/getCancelOrderMonthwiseTaskdata after query excutedThursday, August 3rd, 2023, 12:09:49 PM
+info: 2023-08-03 12:09:49 : 6/getCancelOrderMonthwiseTaskdata connection releaseThursday, August 3rd, 2023, 12:09:49 PM
+info: 2023-08-03 12:09:50 :  serverjs:getConnectedAccountDetails 
+info: 2023-08-03 12:09:51 : serverjs:createConnectedAccountCustomersForInactiveCustomers
+info: 2023-08-03 12:09:59 : getCountryLisData: 1 UI calling: 08-03-2023 05:39:58
+info: 2023-08-03 12:09:59 :  serverjs:getCountrylist
+info: 2023-08-03 12:09:59 : getCountrylist starting:Thursday, August 3rd, 2023, 12:09:59 PM
+info: 2023-08-03 12:09:59 :  serverjs:getCountryStatelist
+info: 2023-08-03 12:09:59 : getCountryStatelist starting:Thursday, August 3rd, 2023, 12:09:59 PM
+info: 2023-08-03 12:09:59 : getStatesLisData: 1 UI calling: 08-03-2023 05:39:58
+info: 2023-08-03 12:09:59 : getCountryStatelist after connecting:Thursday, August 3rd, 2023, 12:09:59 PM
+info: 2023-08-03 12:09:59 : getCountrylist after connecting:Thursday, August 3rd, 2023, 12:09:59 PM
+info: 2023-08-03 12:09:59 : getCountryStatelist after getting result from query:Thursday, August 3rd, 2023, 12:09:59 PM
+info: 2023-08-03 12:09:59 : getCountryStatelist after sending response UI:Thursday, August 3rd, 2023, 12:09:59 PM
+info: 2023-08-03 12:09:59 : getCountryStatelist before connection release:Thursday, August 3rd, 2023, 12:09:59 PM
+info: 2023-08-03 12:09:59 : getCountryStatelist after connection release:Thursday, August 3rd, 2023, 12:09:59 PM
+info: 2023-08-03 12:09:59 : getCountrylist after getting result from query:Thursday, August 3rd, 2023, 12:09:59 PM
+info: 2023-08-03 12:09:59 : getCountrylist after sending response UI:Thursday, August 3rd, 2023, 12:09:59 PM
+info: 2023-08-03 12:09:59 : getCountrylist before connection release:Thursday, August 3rd, 2023, 12:09:59 PM
+info: 2023-08-03 12:09:59 : getCountrylist after connection release:Thursday, August 3rd, 2023, 12:09:59 PM
+info: 2023-08-03 12:09:59 : getUsersData: 1 UI calling: 08-03-2023 05:39:58
+info: 2023-08-03 12:09:59 : Input for getUserDetails 2
+info: 2023-08-03 12:09:59 : getUserDetails starting: Thursday, August 3rd, 2023, 12:09:59 PM
+info: 2023-08-03 12:09:59 : getUserDetails after connecting: Thursday, August 3rd, 2023, 12:09:59 PM
+info: 2023-08-03 12:09:59 : getUserDetails after getting result from query:Thursday, August 3rd, 2023, 12:09:59 PM
+info: 2023-08-03 12:09:59 : getUserDetails before sending response UI:Thursday, August 3rd, 2023, 12:09:59 PM
+info: 2023-08-03 12:09:59 : getUserDetails after sending response UI:Thursday, August 3rd, 2023, 12:09:59 PM
+info: 2023-08-03 12:09:59 : getStatesLisData: 2 UI calling: 08-03-2023 05:39:59
+info: 2023-08-03 12:09:59 : getCountryLisData: 2 UI calling: 08-03-2023 05:39:59
+info: 2023-08-03 12:09:59 : getUsersData: 2 UI calling: 08-03-2023 05:39:59
+info: 2023-08-03 12:10:00 : serverjs:Roaster
+info: 2023-08-03 12:10:00 : No records available for today to run scheduler
+info: 2023-08-03 12:10:59 :  serverjs:Menu
+info: 2023-08-03 12:10:59 : 1/serverjs:getCancelOrderMonthwiseTaskdataThursday, August 3rd, 2023, 12:10:59 PM
+info: 2023-08-03 12:10:59 : 2/getCancelOrderMonthwiseTaskdata connection establishThursday, August 3rd, 2023, 12:10:59 PM
+info: 2023-08-03 12:10:59 : 3/getCancelOrderMonthwiseTaskdata connection establishThursday, August 3rd, 2023, 12:10:59 PM
+info: 2023-08-03 12:10:59 :  serverjs:getfarmcodewithuserid
+info: 2023-08-03 12:10:59 : 4/getCancelOrderMonthwiseTaskdata after query excutedThursday, August 3rd, 2023, 12:10:59 PM
+info: 2023-08-03 12:10:59 : 6/getCancelOrderMonthwiseTaskdata connection releaseThursday, August 3rd, 2023, 12:10:59 PM
+info: 2023-08-03 12:10:59 : serverjs:OrderCount
+info: 2023-08-03 12:11:00 :  serverjs:getConnectedAccountDetails 
+info: 2023-08-03 12:11:00 : serverjs:Roaster
+info: 2023-08-03 12:11:00 : No records available for today to run scheduler
+info: 2023-08-03 12:11:01 : serverjs:createConnectedAccountCustomersForInactiveCustomers
+info: 2023-08-03 12:12:00 : serverjs:Roaster
+info: 2023-08-03 12:12:00 : No records available for today to run scheduler
+info: 2023-08-03 12:13:00 : serverjs:Roaster
+info: 2023-08-03 12:13:00 : No records available for today to run scheduler
+info: 2023-08-03 12:14:00 : serverjs:Roaster
+info: 2023-08-03 12:14:00 : No records available for today to run scheduler
+info: 2023-08-03 12:15:00 : serverjs:Roaster
+info: 2023-08-03 12:15:00 : No records available for today to run scheduler
+info: 2023-08-03 12:16:00 : serverjs:Roaster
+info: 2023-08-03 12:16:00 : No records available for today to run scheduler
+info: 2023-08-03 12:17:00 : serverjs:Roaster
+info: 2023-08-03 12:17:00 : No records available for today to run scheduler
+info: 2023-08-03 12:18:00 : serverjs:Roaster
+info: 2023-08-03 12:18:00 : No records available for today to run scheduler
+info: 2023-08-03 12:19:00 : serverjs:Roaster
+info: 2023-08-03 12:19:00 : No records available for today to run scheduler
+info: 2023-08-03 12:20:00 : serverjs:Roaster
+info: 2023-08-03 12:20:00 : No records available for today to run scheduler
+info: 2023-08-03 12:21:00 : serverjs:Roaster
+info: 2023-08-03 12:21:00 : No records available for today to run scheduler
+info: 2023-08-03 12:22:00 : serverjs:Roaster
+info: 2023-08-03 12:22:00 : No records available for today to run scheduler
+info: 2023-08-03 12:23:00 : serverjs:Roaster
+info: 2023-08-03 12:23:00 : No records available for today to run scheduler
+info: 2023-08-03 12:24:00 : serverjs:Roaster
+info: 2023-08-03 12:24:00 : No records available for today to run scheduler
+info: 2023-08-03 12:24:18 :  serverjs:Menu
+info: 2023-08-03 12:25:00 : serverjs:Roaster
+info: 2023-08-03 12:25:00 : No records available for today to run scheduler
+info: 2023-08-03 12:25:05 : IP 183.82.100.162 login userid : 2
+info: 2023-08-03 12:25:05 :  serverjs:getfarmcodewithuserid
+info: 2023-08-03 12:25:06 : serverjs:OrderCount
+info: 2023-08-03 12:25:06 :  serverjs:Menu
+info: 2023-08-03 12:25:06 :  serverjs:Menu
+info: 2023-08-03 12:25:07 : Input for updUserLastVisitedDate, User: 2 LastVisited:  08/03/2023
+info: 2023-08-03 12:25:07 : 1/serverjs:getCancelOrderMonthwiseTaskdataThursday, August 3rd, 2023, 12:25:07 PM
+info: 2023-08-03 12:25:07 : 2/getCancelOrderMonthwiseTaskdata connection establishThursday, August 3rd, 2023, 12:25:07 PM
+info: 2023-08-03 12:25:07 : 3/getCancelOrderMonthwiseTaskdata connection establishThursday, August 3rd, 2023, 12:25:07 PM
+info: 2023-08-03 12:25:07 : 4/getCancelOrderMonthwiseTaskdata after query excutedThursday, August 3rd, 2023, 12:25:07 PM
+info: 2023-08-03 12:25:07 : 6/getCancelOrderMonthwiseTaskdata connection releaseThursday, August 3rd, 2023, 12:25:07 PM
+info: 2023-08-03 12:25:07 :  serverjs:getfarmcodewithuserid
+info: 2023-08-03 12:25:07 : serverjs:OrderCount
+info: 2023-08-03 12:25:07 :  serverjs:getConnectedAccountDetails 
+info: 2023-08-03 12:25:08 : serverjs:createConnectedAccountCustomersForInactiveCustomers
+info: 2023-08-03 12:25:16 : Input for getUserDetails 2
+info: 2023-08-03 12:25:16 : getUserDetails starting: Thursday, August 3rd, 2023, 12:25:16 PM
+info: 2023-08-03 12:25:16 : getUserDetails after connecting: Thursday, August 3rd, 2023, 12:25:16 PM
+info: 2023-08-03 12:25:16 : getUserDetails after getting result from query:Thursday, August 3rd, 2023, 12:25:16 PM
+info: 2023-08-03 12:25:16 : getUserDetails before sending response UI:Thursday, August 3rd, 2023, 12:25:16 PM
+info: 2023-08-03 12:25:16 : getUserDetails after sending response UI:Thursday, August 3rd, 2023, 12:25:16 PM
+
+
+
+info: 2023-08-03 12:25:16 : getUsersData: 1 UI calling: 08-03-2023 05:55:15
+info: 2023-08-03 12:25:16 : getCountryLisData: 1 UI calling: 08-03-2023 05:55:15
+info: 2023-08-03 12:25:16 :  serverjs:getCountrylist
+info: 2023-08-03 12:25:16 : getCountrylist starting:Thursday, August 3rd, 2023, 12:25:16 PM
+info: 2023-08-03 12:25:16 : getCountrylist after connecting:Thursday, August 3rd, 2023, 12:25:16 PM
+info: 2023-08-03 12:25:16 : getCountrylist after getting result from query:Thursday, August 3rd, 2023, 12:25:16 PM
+info: 2023-08-03 12:25:16 : getCountrylist after sending response UI:Thursday, August 3rd, 2023, 12:25:16 PM
+info: 2023-08-03 12:25:16 : getCountrylist before connection release:Thursday, August 3rd, 2023, 12:25:16 PM
+info: 2023-08-03 12:25:16 : getCountrylist after connection release:Thursday, August 3rd, 2023, 12:25:16 PM
+info: 2023-08-03 12:25:16 : getStatesLisData: 1 UI calling: 08-03-2023 05:55:15
+info: 2023-08-03 12:25:49 :  serverjs:getCountryStatelist
+info: 2023-08-03 12:25:49 : getCountryStatelist starting:Thursday, August 3rd, 2023, 12:25:49 PM
+info: 2023-08-03 12:25:49 : getCountryStatelist after connecting:Thursday, August 3rd, 2023, 12:25:49 PM
+info: 2023-08-03 12:25:49 : getCountryStatelist after getting result from query:Thursday, August 3rd, 2023, 12:25:49 PM
+info: 2023-08-03 12:25:49 : getCountryStatelist after sending response UI:Thursday, August 3rd, 2023, 12:25:49 PM
+info: 2023-08-03 12:25:49 : getCountryStatelist before connection release:Thursday, August 3rd, 2023, 12:25:49 PM
+info: 2023-08-03 12:25:49 : getCountryStatelist after connection release:Thursday, August 3rd, 2023, 12:25:49 PM
+info: 2023-08-03 12:25:49 : getUsersData: 2 UI calling: 08-03-2023 05:55:15
+info: 2023-08-03 12:25:49 : getCountryLisData: 2 UI calling: 08-03-2023 05:55:16
+info: 2023-08-03 12:25:49 : getStatesLisData: 2 UI calling: 08-03-2023 05:55:48
+info: 2023-08-03 12:26:00 : serverjs:Roaster
+info: 2023-08-03 12:26:00 : No records available for today to run scheduler
+info: 2023-08-03 12:27:00 : serverjs:Roaster
+info: 2023-08-03 12:27:00 : No records available for today to run scheduler
+info: 2023-08-03 12:28:00 : serverjs:Roaster
+info: 2023-08-03 12:28:00 : No records available for today to run scheduler
+info: 2023-08-03 12:29:00 : serverjs:Roaster
+info: 2023-08-03 12:29:00 : No records available for today to run scheduler
+info: 2023-08-03 12:30:00 : serverjs:Roaster
+info: 2023-08-03 12:30:00 : No records available for today to run scheduler
+info: 2023-08-03 12:31:00 : serverjs:Roaster
+info: 2023-08-03 12:31:00 : No records available for today to run scheduler
+info: 2023-08-03 12:32:00 : serverjs:Roaster
+info: 2023-08-03 12:32:00 : No records available for today to run scheduler
+info: 2023-08-03 12:33:00 : serverjs:Roaster
+info: 2023-08-03 12:33:00 : No records available for today to run scheduler
+info: 2023-08-03 12:34:00 : serverjs:Roaster
+info: 2023-08-03 12:34:00 : No records available for today to run scheduler
+info: 2023-08-03 12:35:00 : serverjs:Roaster
+info: 2023-08-03 12:35:00 : No records available for today to run scheduler
+info: 2023-08-03 12:36:00 : serverjs:Roaster
+info: 2023-08-03 12:36:00 : No records available for today to run scheduler
+info: 2023-08-03 12:37:00 : serverjs:Roaster
+info: 2023-08-03 12:37:00 : No records available for today to run scheduler
+info: 2023-08-03 12:37:12 :  serverjs:Menu
+info: 2023-08-03 12:37:13 : serverjs:OrderCount
+info: 2023-08-03 12:37:13 :  serverjs:getfarmcodewithuserid
+info: 2023-08-03 12:37:13 : 1/serverjs:getCancelOrderMonthwiseTaskdataThursday, August 3rd, 2023, 12:37:13 PM
+info: 2023-08-03 12:37:13 : 2/getCancelOrderMonthwiseTaskdata connection establishThursday, August 3rd, 2023, 12:37:13 PM
+info: 2023-08-03 12:37:13 : 3/getCancelOrderMonthwiseTaskdata connection establishThursday, August 3rd, 2023, 12:37:13 PM
+info: 2023-08-03 12:37:13 : 4/getCancelOrderMonthwiseTaskdata after query excutedThursday, August 3rd, 2023, 12:37:13 PM
+info: 2023-08-03 12:37:13 : 6/getCancelOrderMonthwiseTaskdata connection releaseThursday, August 3rd, 2023, 12:37:13 PM
+info: 2023-08-03 12:37:13 :  serverjs:getConnectedAccountDetails 
+info: 2023-08-03 12:37:14 : serverjs:createConnectedAccountCustomersForInactiveCustomers
+info: 2023-08-03 12:37:50 : getCountryLisData: 1 UI calling: 08-03-2023 06:07:49
+info: 2023-08-03 12:37:50 : Input for getUserDetails 2
+info: 2023-08-03 12:37:50 : getUserDetails starting: Thursday, August 3rd, 2023, 12:37:50 PM
+info: 2023-08-03 12:37:50 : getUserDetails after connecting: Thursday, August 3rd, 2023, 12:37:50 PM
+info: 2023-08-03 12:37:50 :  serverjs:getCountrylist
+info: 2023-08-03 12:37:50 : getCountrylist starting:Thursday, August 3rd, 2023, 12:37:50 PM
+info: 2023-08-03 12:37:50 : getUserDetails after getting result from query:Thursday, August 3rd, 2023, 12:37:50 PM
+info: 2023-08-03 12:37:50 : getUserDetails before sending response UI:Thursday, August 3rd, 2023, 12:37:50 PM
+info: 2023-08-03 12:37:50 : getUserDetails after sending response UI:Thursday, August 3rd, 2023, 12:37:50 PM
+info: 2023-08-03 12:37:50 : getCountrylist after connecting:Thursday, August 3rd, 2023, 12:37:50 PM
+info: 2023-08-03 12:37:50 : getCountrylist after getting result from query:Thursday, August 3rd, 2023, 12:37:50 PM
+info: 2023-08-03 12:37:50 : getCountrylist after sending response UI:Thursday, August 3rd, 2023, 12:37:50 PM
+info: 2023-08-03 12:37:50 : getCountrylist before connection release:Thursday, August 3rd, 2023, 12:37:50 PM
+info: 2023-08-03 12:37:50 : getCountrylist after connection release:Thursday, August 3rd, 2023, 12:37:50 PM
+info: 2023-08-03 12:37:50 : getUsersData: 1 UI calling: 08-03-2023 06:07:49
+info: 2023-08-03 12:37:50 : getStatesLisData: 1 UI calling: 08-03-2023 06:07:49
+info: 2023-08-03 12:37:50 :  serverjs:getCountryStatelist
+info: 2023-08-03 12:37:50 : getCountryStatelist starting:Thursday, August 3rd, 2023, 12:37:50 PM
+info: 2023-08-03 12:37:50 : getCountryStatelist after connecting:Thursday, August 3rd, 2023, 12:37:50 PM
+info: 2023-08-03 12:37:50 : getCountryStatelist after getting result from query:Thursday, August 3rd, 2023, 12:37:50 PM
+info: 2023-08-03 12:37:50 : getCountryStatelist after sending response UI:Thursday, August 3rd, 2023, 12:37:50 PM
+info: 2023-08-03 12:37:50 : getCountryStatelist before connection release:Thursday, August 3rd, 2023, 12:37:50 PM
+info: 2023-08-03 12:37:50 : getCountryStatelist after connection release:Thursday, August 3rd, 2023, 12:37:50 PM
+info: 2023-08-03 12:37:51 : getUsersData: 2 UI calling: 08-03-2023 06:07:50
+info: 2023-08-03 12:37:51 : getCountryLisData: 2 UI calling: 08-03-2023 06:07:50
+info: 2023-08-03 12:38:00 : serverjs:Roaster
+info: 2023-08-03 12:38:00 : No records available for today to run scheduler
+info: 2023-08-03 12:38:32 : getStatesLisData: 2 UI calling: 08-03-2023 06:07:50
+info: 2023-08-03 12:39:00 : serverjs:Roaster
+info: 2023-08-03 12:39:00 : No records available for today to run scheduler
+info: 2023-08-03 12:40:00 : serverjs:Roaster
+info: 2023-08-03 12:40:00 : No records available for today to run scheduler
+info: 2023-08-03 12:41:00 : serverjs:Roaster
+info: 2023-08-03 12:41:00 : No records available for today to run scheduler
