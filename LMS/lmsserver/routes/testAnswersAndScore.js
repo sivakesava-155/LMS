@@ -72,8 +72,18 @@ router.post('/', async (req, res) => {
         const [questions] = await db.query('SELECT id, correct_answer FROM mcq_test_questions WHERE test_id = ?', [test_id]);
         let score = 0;
         for (const answer of answers) {
-            const question = questions.find(q => q.id === answer.question_id);
-            if (question && parseInt(answer.selected_option) === parseInt(question.correct_answer)) {
+            const question = questions.find(q => Number(q.id) === Number(answer.question_id));
+            console.log(
+                'Comparing:',
+                'selected_option:', answer.selected_option, typeof answer.selected_option,
+                'correct_answer:', question ? question.correct_answer : undefined, question ? typeof question.correct_answer : undefined
+            );
+            if (
+                question &&
+                answer.selected_option &&
+                question.correct_answer &&
+                answer.selected_option.toString().trim() === question.correct_answer.toString().trim()
+            ) {
                 score++;
             }
         }

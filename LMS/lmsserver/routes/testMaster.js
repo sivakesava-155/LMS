@@ -105,6 +105,26 @@ router.use(jwtAuth);
 router.post('/', upload.single('file'), async (req, res) => {
     const { training_id, test_name, duration, questions } = req.body;
 
+    // Debug logging
+    console.log('Request body:', req.body);
+    console.log('Request file:', req.file);
+    console.log('Training ID:', training_id);
+    console.log('Test name:', test_name);
+    console.log('Duration:', duration);
+    console.log('Questions:', questions);
+
+    // Validate required fields
+    if (!training_id || !test_name || !duration) {
+        return res.status(400).json({ 
+            error: 'Missing required fields', 
+            details: {
+                training_id: !training_id ? 'Required' : 'Present',
+                test_name: !test_name ? 'Required' : 'Present',
+                duration: !duration ? 'Required' : 'Present'
+            }
+        });
+    }
+
     try {
         const [existingTestName] = await db.query(
             'SELECT test_id FROM test_master WHERE test_name = ?',
@@ -131,10 +151,50 @@ router.post('/', upload.single('file'), async (req, res) => {
 
             if (fileExtension === 'csv') {
                 // Read and parse CSV file
-                fs.createReadStream(req.file.path)
-                    .pipe(csv())
-                    .on('data', (row) => {
-                        console.log({ row })
+                return new Promise((resolve, reject) => {
+                    fs.createReadStream(req.file.path)
+                        .pipe(csv())
+                        .on('data', (row) => {
+                            console.log({ row })
+                            // Validate that required fields are not null/undefined
+                            if (row.question_text && row.option_1 && row.option_2 && row.option_3 && row.option_4 && row.correct_answer) {
+                                combinedQuestions.push([
+                                    test_id,
+                                    training_id,
+                                    row.question_text,
+                                    row.option_1,
+                                    row.option_2,
+                                    row.option_3,
+                                    row.option_4,
+                                    row.correct_answer,
+                                ]);
+                            }
+                        })
+                        .on('end', async () => {
+                            try {
+                                if (combinedQuestions.length === 0) {
+                                    return res.status(400).json({ error: 'No valid questions found in CSV file' });
+                                }
+                                await insertQuestions(combinedQuestions, res);
+                                resolve();
+                            } catch (error) {
+                                reject(error);
+                            }
+                        })
+                        .on('error', (error) => {
+                            reject(error);
+                        });
+                });
+            } else if (fileExtension === 'xlsx') {
+                // Read and parse Excel file
+                const workbook = xlsx.readFile(req.file.path);
+                const sheetName = workbook.SheetNames[0];
+                const worksheet = workbook.Sheets[sheetName];
+                const rows = xlsx.utils.sheet_to_json(worksheet);
+
+                rows.forEach((row) => {
+                    // Validate that required fields are not null/undefined
+                    if (row.question_text && row.option_1 && row.option_2 && row.option_3 && row.option_4 && row.correct_answer) {
                         combinedQuestions.push([
                             test_id,
                             training_id,
@@ -145,30 +205,12 @@ router.post('/', upload.single('file'), async (req, res) => {
                             row.option_4,
                             row.correct_answer,
                         ]);
-                    })
-                // .on('end', async () => {
-                // Insert questions into mcq_test_questions table
-                await insertQuestions(combinedQuestions, res);
-                // });
-            } else if (fileExtension === 'xlsx') {
-                // Read and parse Excel file
-                const workbook = xlsx.readFile(req.file.path);
-                const sheetName = workbook.SheetNames[0];
-                const worksheet = workbook.Sheets[sheetName];
-                const rows = xlsx.utils.sheet_to_json(worksheet);
-
-                rows.forEach((row) => {
-                    combinedQuestions.push([
-                        test_id,
-                        training_id,
-                        row.question_text,
-                        row.option_1,
-                        row.option_2,
-                        row.option_3,
-                        row.option_4,
-                        row.correct_answer,
-                    ]);
+                    }
                 });
+
+                if (combinedQuestions.length === 0) {
+                    return res.status(400).json({ error: 'No valid questions found in Excel file' });
+                }
 
                 await insertQuestions(combinedQuestions, res);
             } else if (fileExtension === 'pdf') {
@@ -196,21 +238,42 @@ router.post('/', upload.single('file'), async (req, res) => {
             }
         } else if (questions && Array.isArray(questions) && questions.length > 0) {
             // Array of questions case
-            const formattedQuestions = questions.map((question) => [
-                test_id,
-                training_id,
-                question.question_text,
-                question.option_1,
-                question.option_2,
-                question.option_3,
-                question.option_4,
-                question.correct_answer,
-            ]);
+            const formattedQuestions = questions.map((question) => {
+                // Validate that required fields are not null/undefined
+                if (!question.question_text || !question.option_1 || !question.option_2 || !question.option_3 || !question.option_4 || !question.correct_answer) {
+                    throw new Error('All question fields (question_text, option_1, option_2, option_3, option_4, correct_answer) are required');
+                }
+                return [
+                    test_id,
+                    training_id,
+                    question.question_text,
+                    question.option_1,
+                    question.option_2,
+                    question.option_3,
+                    question.option_4,
+                    question.correct_answer,
+                ];
+            });
 
             combinedQuestions = combinedQuestions.concat(formattedQuestions);
             await insertQuestions(combinedQuestions, res);
         } else {
-            return res.status(400).json({ error: 'No file or questions provided' });
+            return res.status(400).json({ 
+                error: 'No file or questions provided',
+                details: {
+                    hasFile: !!req.file,
+                    hasQuestions: !!(questions && Array.isArray(questions) && questions.length > 0),
+                    fileInfo: req.file ? {
+                        originalname: req.file.originalname,
+                        mimetype: req.file.mimetype,
+                        size: req.file.size
+                    } : null,
+                    questionsInfo: questions ? {
+                        isArray: Array.isArray(questions),
+                        length: Array.isArray(questions) ? questions.length : 'Not an array'
+                    } : null
+                }
+            });
         }
     } catch (err) {
         console.error(err);
@@ -220,11 +283,24 @@ router.post('/', upload.single('file'), async (req, res) => {
 
 const insertQuestions = async (questions, res) => {
     try {
+        // Validate that no null values are being passed
+        const validQuestions = questions.filter(question => {
+            return question.every(field => field !== null && field !== undefined && field !== '');
+        });
+
+        if (validQuestions.length === 0) {
+            return res.status(400).json({ error: 'No valid questions found. All fields must have values.' });
+        }
+
+        if (validQuestions.length !== questions.length) {
+            console.warn(`Filtered out ${questions.length - validQuestions.length} invalid questions`);
+        }
+
         const query = `
             INSERT INTO mcq_test_questions (test_id, training_id, question_text, option_1, option_2, option_3, option_4, correct_answer)
             VALUES ?
         `;
-        await db.query(query, [questions]);
+        await db.query(query, [validQuestions]);
         res.status(201).json({ message: 'Test and questions created successfully' });
     } catch (err) {
         console.error(err);

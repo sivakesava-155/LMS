@@ -7,7 +7,7 @@ createToken = (email, role_id, id) => {
         (
             { email, role_id, id },
             process.env.JWT_SECRET,
-            // { expiresIn: '1h' }
+             { expiresIn: '1h' }
         );
     return token;
 }

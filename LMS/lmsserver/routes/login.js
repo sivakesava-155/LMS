@@ -77,8 +77,8 @@ router.post('/login', async (req, res) => {
             return res.status(401).json({ message: 'InvalidCredentials' });
         }
 
-        logger.info(`User logged in: ${email}`);
-        const { id, username, role_id } = user;
+        logger.debug(`User logged in: ${email}`);
+        const { id, username, role_id } = user; //destructor
         const token = createToken(id, email, role_id)
         res.json({ message: "Success", username, role_id, token, id });
     } catch (err) {
