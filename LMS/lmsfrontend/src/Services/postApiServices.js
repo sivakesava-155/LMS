@@ -1,19 +1,28 @@
 import { ApiNames } from '../Utils/ApiNames';
+
+const getAuthHeaders = () => {
+    const token = localStorage.getItem("auth");
+    return {
+        'Content-Type': 'application/json',
+        Authorization: token ? `Bearer ${token}` : ""
+    };
+};
+
+const getAuthHeadersFile = () => {
+    const token = localStorage.getItem("auth");
+    return {
+        Authorization: token ? `Bearer ${token}` : ""
+    };
+};
+
 const otherOptions = {
     method: "POST",
-    headers: {
-        'Content-Type': 'application/json',
-        authorization: localStorage.getItem("auth")
-    },
+    headers: getAuthHeaders()
 }
-
 
 const otherOptionsFile = {
     method: "POST",
-    headers: {
-        // 'Content-Type': 'application/json',
-        authorization: localStorage.getItem("auth")
-    },
+    headers: getAuthHeadersFile()
 }
 export const loginUser = async (userData) => {
     try {
@@ -102,10 +111,7 @@ export const ReportsData = async (id, type) => {
     debugger
     const requestOptions = {
         method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-            'Authorization': localStorage.getItem("auth") // Assuming "auth" is the key for the authorization token in localStorage
-        },
+        headers: getAuthHeaders(),
         body: JSON.stringify({ id, type })
     };
 

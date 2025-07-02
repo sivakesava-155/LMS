@@ -105,15 +105,53 @@ const TestCreation = () => {
 
     const handleUpload = async () => {
         try {
+            // Validate required fields before upload
+            if (!file) {
+                alert('Please select a file to upload');
+                return;
+            }
+            if (!testName || !duration || (!trainingId && !courseId)) {
+                alert('Please fill in all required fields (Test Name, Duration, and Training)');
+                return;
+            }
+
+            // Debug logging
+            console.log('Upload values:', {
+                file: file,
+                courseId: courseId,
+                trainingId: trainingId,
+                testName: testName,
+                duration: duration
+            });
+
+            // Create a stable reference to the file
+            const fileToUpload = file;
+            const trainingIdToUse = trainingId || courseId;
+
+            // Verify file is still valid
+            if (!fileToUpload || !fileToUpload.name) {
+                alert('File is no longer valid. Please select the file again.');
+                return;
+            }
+
             const formData = new FormData();
-            formData.append('file', file);
-            formData.append('training_id', courseId);
+            formData.append('file', fileToUpload);
+            formData.append('training_id', trainingIdToUse);
             formData.append('test_name', testName);
             formData.append('duration', duration);
+
+            // Debug FormData contents
+            for (let [key, value] of formData.entries()) {
+                console.log(`${key}:`, value);
+            }
 
             const { response, responseData } = await CreateTestMcq(formData);
             if (response.ok) {
                 alert('Questions uploaded successfully!');
+                // Clear file input only after successful upload
+                if (fileInputRef.current) {
+                    fileInputRef.current.value = '';
+                }
                 resetForm();
                 setQuestions([]);
                 setFile(null);
@@ -123,11 +161,21 @@ const TestCreation = () => {
                 fetchTestNames();
             } else {
                 console.error('Error uploading file:', response.statusText);
-                alert('Failed to upload questions');
+                console.error('Response data:', responseData);
+                
+                // Show more detailed error message
+                const errorMessage = responseData?.error || responseData?.message || 'Failed to upload questions';
+                alert(`Error: ${errorMessage}`);
             }
         } catch (error) {
             console.error('Error uploading file:', error);
-            alert('Failed to upload questions');
+            
+            // Handle specific file upload errors
+            if (error.message.includes('ERR_UPLOAD_FILE_CHANGED') || error.message.includes('Failed to fetch')) {
+                alert('File upload failed. Please try selecting the file again and uploading.');
+            } else {
+                alert('Failed to upload questions: ' + error.message);
+            }
         }
     };
 
@@ -161,9 +209,7 @@ const TestCreation = () => {
         setCurrentQuestionIndex(0);
         setListOfCourses([]);
         setTrainings([]);
-        if (fileInputRef.current) {
-            fileInputRef.current.value = '';
-        }
+        // Don't clear file input here to avoid ERR_UPLOAD_FILE_CHANGED
     };
 
     const handleSubmit = async (e) => {

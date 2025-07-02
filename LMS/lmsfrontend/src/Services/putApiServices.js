@@ -1,10 +1,16 @@
 import { ApiNames } from '../Utils/ApiNames';
+
+const getAuthHeaders = () => {
+    const token = localStorage.getItem("auth");
+    return {
+        'Content-Type': 'application/json',
+        Authorization: token ? `Bearer ${token}` : ""
+    };
+};
+
 const otherOptions = {
     method: "PUT",
-    headers: {
-        'Content-Type': 'application/json',
-        authorization: localStorage.getItem("auth")
-    },
+    headers: getAuthHeaders()
 }
 export const updateUser = async (id, v_formData) => {
     const response = await fetch(`${ApiNames.Registration}/${id}`, {
