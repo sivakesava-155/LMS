@@ -176,5 +176,37 @@ router.get('/:test_id/:userid', async (req, res) => {
     }
 });
 
+router.get('/:test_id', async (req, res) => {
+    const { test_id } = req.params;
+    try {
+        const [rows] = await db.query(`
+            SELECT id, test_id, student_id, score
+            FROM test_scores
+            WHERE test_id = ?`, [test_id]);
+            
+        res.status(200).json(rows);
+    } catch (err) {
+        logger.error(err.message, err);
+        res.status(500).json({ error: err.message });
+    }
+});
+
+
+router.get('/:test_id', async (req, res) => {
+    const { test_id } = req.params;
+    try {
+        const [rows] = await db.query(`
+            SELECT id, test_id, student_id, score
+            FROM test_scores
+            WHERE test_id = ?`, [test_id]);
+            
+        res.status(200).json(rows);
+    } catch (err) {
+        logger.error(err.message, err);
+        res.status(500).json({ error: err.message });
+    }
+});
+
+
 
 module.exports = router;

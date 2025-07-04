@@ -70,12 +70,14 @@ router.post('/', async (req, res) => {
         if (rows.length === 0) {
             return res.status(404).json({ error: 'data not found' });
         }
-        console.log(rows, "djfhdfijddfjdf -------------fdsfdskfdkfsdk")
+        // console.log(rows, "djfhdfijddfjdf -------------fdsfdskfdkfsdk")
         res.json(rows);
     } catch (err) {
         logger.error(err.message, err);
         res.status(500).json({ error: err.message });
     }
 });
+
+
 
 module.exports = router;

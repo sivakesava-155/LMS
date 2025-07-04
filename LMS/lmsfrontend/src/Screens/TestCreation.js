@@ -294,6 +294,10 @@ const TestCreation = () => {
             console.error('Error fetching test names:', error);
         }
     };
+    useEffect(() => {
+        fetchTestNames()
+    },[]
+    )
 
     return (
         <div className={`${isSidebarOpen ? 'toggle-sidebar' : ''}`}>

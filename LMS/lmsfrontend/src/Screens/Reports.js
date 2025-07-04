@@ -42,15 +42,20 @@ const Reports = () => {
                     }
                     break;
 
-                case 'Course-wise':
-                    const { response: courseResponse, responseData: courseData } = await GetAllCourses();
-                    if (courseResponse.ok) {
-                        data = courseData;
-                        newType = 'course';
-                    } else {
-                        console.error('Error fetching course details:', courseResponse.statusText);
-                        return;
-                    }
+//                 case 'Course-wise':
+//                     const { response: courseResponse, responseData: courseData } = await GetAllCourses();
+//                     if (courseResponse.ok) {
+//                          const courseIds = courseData.map(course => course.id); // Extract course IDs
+//     console.log('Course IDs:', courseIds);
+//     const firstCourseId = courseData[0].id;
+// console.log(firstCourseId);
+//                         data = courseData;
+//                         newType = 'course';
+                        
+//                     } else {
+//                         console.error('Error fetching course details:', courseResponse.statusText);
+//                         return;
+//                     }
                     break;
 
                 case 'Test-wise':
@@ -82,12 +87,34 @@ const Reports = () => {
 
             const id = selectedDetail;
             const reportType = type;
+               
+        if (reportType === 'student') {
+            // console.log("enetered")
+            // const { response, responseData } = await getScoreByStudentId(id);
+            if (response.ok) {
+                // data = await response.json();
+            } 
+        }
+        else if (reportType === 'test') {
+            
+            const { response, responseData } = await TestScoresByTestId(selectedDetail);
+            console.log(selectedDetail)
+            if (response.ok) {
+        const data = await response.json(); // parse JSON response
+        setReportData(data);                // store in state
+       
+    }else {
+                throw new Error('Error fetching test report');
+            }
+        } 
             const { response, responseData } = await ReportsData(id, reportType)
             if (response.ok) {
-                //const data = await responseData.json();
+                const data = await responseData.json();
                 setReportData(responseData);
                 console.log({ reportData })
-            } else {
+            } 
+            
+            else {
                 alert('Data Not Found')
                 console.error(`Error fetching ${selectedReportType} report data:`, response.statusText);
             }

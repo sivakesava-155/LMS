@@ -51,7 +51,7 @@ export const GetAllTests = async () => {
 
 
 export const TestScoresBySId = async (testId) => {
-    const response = await fetch(`${ApiNames.TscoresById}/${testId}`, otherOptions);
+    const response = await fetch(`${ApiNames.Reports}/${testId}`, otherOptions);
     const responseData = await response.json()
     return { response, responseData };
 }
@@ -132,6 +132,14 @@ export const TestScoresByTestidstudentId = async (testId, userId) => {
     const responseData = await response.json()
     return { response, responseData };
 }
+
+// Updated function name and API call based on single test_id input
+export const TestScoresByTestId = async (testId) => {
+    const response = await fetch(`${ApiNames.TscoresById}/${testId}`, otherOptions);
+    const responseData = await response.json();
+    return { response, responseData };
+};
+
 
 export const GetMaterialsDataForStudent = async (stu_id) => {
     const response = await fetch(`${ApiNames.Materials}/student_materials/${stu_id}`, otherOptions)

@@ -861,3 +861,457 @@
 2025-07-02 12:31:49 info: ::1 - - [02/Jul/2025:07:01:49 +0000] "GET /test-master HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
 2025-07-02 12:31:50 info: ::1 - - [02/Jul/2025:07:01:50 +0000] "GET /others/student_trainings/3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
 2025-07-02 12:31:50 info: ::1 - - [02/Jul/2025:07:01:50 +0000] "GET /others/student_trainings/3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:18:36 info: ::1 - - [02/Jul/2025:10:48:36 +0000] "POST /login HTTP/1.1" 200 263 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:18:37 info: ::1 - - [02/Jul/2025:10:48:37 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:18:37 info: ::1 - - [02/Jul/2025:10:48:37 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:18:37 info: ::1 - - [02/Jul/2025:10:48:37 +0000] "GET /companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:18:37 info: ::1 - - [02/Jul/2025:10:48:37 +0000] "GET /roles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:18:37 info: ::1 - - [02/Jul/2025:10:48:37 +0000] "GET /companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:18:37 info: ::1 - - [02/Jul/2025:10:48:37 +0000] "GET /roles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:18:39 info: ::1 - - [02/Jul/2025:10:48:39 +0000] "GET /courses HTTP/1.1" 200 156 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:18:39 info: ::1 - - [02/Jul/2025:10:48:39 +0000] "GET /companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:18:39 info: ::1 - - [02/Jul/2025:10:48:39 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:18:39 info: ::1 - - [02/Jul/2025:10:48:39 +0000] "GET /companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:18:39 info: ::1 - - [02/Jul/2025:10:48:39 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:18:39 info: ::1 - - [02/Jul/2025:10:48:39 +0000] "GET /companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:18:39 info: ::1 - - [02/Jul/2025:10:48:39 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:18:39 info: ::1 - - [02/Jul/2025:10:48:39 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:18:39 info: ::1 - - [02/Jul/2025:10:48:39 +0000] "GET /training_details HTTP/1.1" 200 345 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:18:39 info: ::1 - - [02/Jul/2025:10:48:39 +0000] "GET /companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:18:39 info: ::1 - - [02/Jul/2025:10:48:39 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:18:39 info: ::1 - - [02/Jul/2025:10:48:39 +0000] "GET /training_details HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:18:41 info: ::1 - - [02/Jul/2025:10:48:41 +0000] "GET /companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:18:41 info: ::1 - - [02/Jul/2025:10:48:41 +0000] "GET /companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:21:05 info: ::1 - - [02/Jul/2025:10:51:05 +0000] "GET /companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:21:05 info: ::1 - - [02/Jul/2025:10:51:05 +0000] "GET /test-master HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:21:05 info: ::1 - - [02/Jul/2025:10:51:05 +0000] "GET /companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-02 16:21:05 info: ::1 - - [02/Jul/2025:10:51:05 +0000] "GET /test-master HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:16:19 info: ::1 - - [04/Jul/2025:09:46:19 +0000] "POST /login HTTP/1.1" 200 263 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:16:19 info: ::1 - - [04/Jul/2025:09:46:19 +0000] "GET /users HTTP/1.1" 403 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:16:19 info: ::1 - - [04/Jul/2025:09:46:19 +0000] "GET /roles HTTP/1.1" 403 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:16:19 info: ::1 - - [04/Jul/2025:09:46:19 +0000] "GET /companies HTTP/1.1" 403 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:16:19 info: ::1 - - [04/Jul/2025:09:46:19 +0000] "GET /users HTTP/1.1" 403 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:16:19 info: ::1 - - [04/Jul/2025:09:46:19 +0000] "GET /companies HTTP/1.1" 403 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:16:19 info: ::1 - - [04/Jul/2025:09:46:19 +0000] "GET /roles HTTP/1.1" 403 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:16:23 info: ::1 - - [04/Jul/2025:09:46:23 +0000] "GET /companies HTTP/1.1" 403 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:16:23 info: ::1 - - [04/Jul/2025:09:46:23 +0000] "GET /companies HTTP/1.1" 403 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:16:29 info: ::1 - - [04/Jul/2025:09:46:29 +0000] "GET /courses HTTP/1.1" 403 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:16:36 info: ::1 - - [04/Jul/2025:09:46:36 +0000] "GET /courses HTTP/1.1" 403 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:16:36 info: ::1 - - [04/Jul/2025:09:46:36 +0000] "GET /courses HTTP/1.1" 403 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:16:36 info: ::1 - - [04/Jul/2025:09:46:36 +0000] "GET /companies HTTP/1.1" 403 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:16:36 info: ::1 - - [04/Jul/2025:09:46:36 +0000] "GET /companies HTTP/1.1" 403 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:16:44 info: ::1 - - [04/Jul/2025:09:46:44 +0000] "GET /courses HTTP/1.1" 200 156 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:16:44 info: ::1 - - [04/Jul/2025:09:46:44 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:16:44 info: ::1 - - [04/Jul/2025:09:46:44 +0000] "GET /companies HTTP/1.1" 200 1273 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:16:44 info: ::1 - - [04/Jul/2025:09:46:44 +0000] "GET /companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:16:52 info: ::1 - - [04/Jul/2025:09:46:52 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:16:55 error: Error: Table 'lms1.combined_scores_view' doesn't exist
+    at PromisePool.query (E:\lms_git\LMS\LMS\lmsserver\node_modules\mysql2\promise.js:356:22)
+    at E:\lms_git\LMS\LMS\lmsserver\routes\reports.js:69:33
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:328:13)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+2025-07-04 15:16:55 info: ::1 - - [04/Jul/2025:09:46:55 +0000] "POST /reports HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:23:37 error: Error: Table 'lms1.combined_scores_view' doesn't exist
+    at PromisePool.query (E:\lms_git\LMS\LMS\lmsserver\node_modules\mysql2\promise.js:356:22)
+    at E:\lms_git\LMS\LMS\lmsserver\routes\reports.js:69:33
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:328:13)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+2025-07-04 15:23:37 info: ::1 - - [04/Jul/2025:09:53:37 +0000] "POST /reports HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:23:37 info: ::1 - - [04/Jul/2025:09:53:37 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:26:34 error: Error: Table 'lms1.combined_scores_view' doesn't exist
+    at PromisePool.query (E:\lms_git\LMS\LMS\lmsserver\node_modules\mysql2\promise.js:356:22)
+    at E:\lms_git\LMS\LMS\lmsserver\routes\reports.js:69:33
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:328:13)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+2025-07-04 15:26:34 info: ::1 - - [04/Jul/2025:09:56:34 +0000] "POST /reports HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:26:34 info: ::1 - - [04/Jul/2025:09:56:34 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:27:09 info: ::1 - - [04/Jul/2025:09:57:09 +0000] "GET /users HTTP/1.1" 200 2584 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:27:15 error: Error: Table 'lms1.combined_scores_view' doesn't exist
+    at PromisePool.query (E:\lms_git\LMS\LMS\lmsserver\node_modules\mysql2\promise.js:356:22)
+    at E:\lms_git\LMS\LMS\lmsserver\routes\reports.js:69:33
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:328:13)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+2025-07-04 15:27:15 info: ::1 - - [04/Jul/2025:09:57:15 +0000] "POST /reports HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:27:20 info: ::1 - - [04/Jul/2025:09:57:20 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:27:24 error: Error: Table 'lms1.combined_scores_view' doesn't exist
+    at PromisePool.query (E:\lms_git\LMS\LMS\lmsserver\node_modules\mysql2\promise.js:356:22)
+    at E:\lms_git\LMS\LMS\lmsserver\routes\reports.js:69:33
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:328:13)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+2025-07-04 15:27:24 info: ::1 - - [04/Jul/2025:09:57:24 +0000] "POST /reports HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:28:01 info: ::1 - - [04/Jul/2025:09:58:01 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:28:11 error: Error: Table 'lms1.combined_scores_view' doesn't exist
+    at PromisePool.query (E:\lms_git\LMS\LMS\lmsserver\node_modules\mysql2\promise.js:356:22)
+    at E:\lms_git\LMS\LMS\lmsserver\routes\reports.js:69:33
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:328:13)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+2025-07-04 15:28:11 info: ::1 - - [04/Jul/2025:09:58:11 +0000] "POST /reports HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:28:39 info: ::1 - - [04/Jul/2025:09:58:39 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:28:49 info: ::1 - - [04/Jul/2025:09:58:49 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:29:05 info: ::1 - - [04/Jul/2025:09:59:05 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:29:29 info: ::1 - - [04/Jul/2025:09:59:29 +0000] "POST /login HTTP/1.1" 200 263 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:29:29 info: ::1 - - [04/Jul/2025:09:59:29 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:29:29 info: ::1 - - [04/Jul/2025:09:59:29 +0000] "GET /companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:29:29 info: ::1 - - [04/Jul/2025:09:59:29 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:29:29 info: ::1 - - [04/Jul/2025:09:59:29 +0000] "GET /companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:29:29 info: ::1 - - [04/Jul/2025:09:59:29 +0000] "GET /roles HTTP/1.1" 200 251 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:29:29 info: ::1 - - [04/Jul/2025:09:59:29 +0000] "GET /roles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:29:33 info: ::1 - - [04/Jul/2025:09:59:33 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:29:44 info: ::1 - - [04/Jul/2025:09:59:44 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:29:56 info: ::1 - - [04/Jul/2025:09:59:56 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:30:42 info: ::1 - - [04/Jul/2025:10:00:42 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:32:35 info: ::1 - - [04/Jul/2025:10:02:35 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:32:38 info: ::1 - - [04/Jul/2025:10:02:38 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:33:12 info: ::1 - - [04/Jul/2025:10:03:12 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:33:17 error: Error: Table 'lms1.combined_scores_view' doesn't exist
+    at PromisePool.query (E:\lms_git\LMS\LMS\lmsserver\node_modules\mysql2\promise.js:356:22)
+    at E:\lms_git\LMS\LMS\lmsserver\routes\reports.js:69:33
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:328:13)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+2025-07-04 15:33:17 info: ::1 - - [04/Jul/2025:10:03:17 +0000] "POST /reports HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:35:12 info: ::1 - - [04/Jul/2025:10:05:12 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:39:44 error: Error: Table 'lms1.combined_scores_view' doesn't exist
+    at PromisePool.query (E:\lms_git\LMS\LMS\lmsserver\node_modules\mysql2\promise.js:356:22)
+    at E:\lms_git\LMS\LMS\lmsserver\routes\reports.js:69:33
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:328:13)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+2025-07-04 15:39:44 info: ::1 - - [04/Jul/2025:10:09:44 +0000] "POST /reports HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:39:46 info: ::1 - - [04/Jul/2025:10:09:46 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:42:10 error: Error: Table 'lms1.combined_scores_view' doesn't exist
+    at PromisePool.query (E:\lms_git\LMS\LMS\lmsserver\node_modules\mysql2\promise.js:356:22)
+    at E:\lms_git\LMS\LMS\lmsserver\routes\reports.js:69:33
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:328:13)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+2025-07-04 15:42:10 info: ::1 - - [04/Jul/2025:10:12:10 +0000] "POST /reports HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:42:29 info: ::1 - - [04/Jul/2025:10:12:29 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:49:08 info: ::1 - - [04/Jul/2025:10:19:08 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 15:54:46 info: ::1 - - [04/Jul/2025:10:24:46 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:05:58 error: Error: Table 'lms1.combined_scores_view' doesn't exist
+    at PromisePool.query (E:\lms_git\LMS\LMS\lmsserver\node_modules\mysql2\promise.js:356:22)
+    at E:\lms_git\LMS\LMS\lmsserver\routes\reports.js:69:33
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:328:13)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+2025-07-04 16:05:58 info: ::1 - - [04/Jul/2025:10:35:58 +0000] "POST /reports HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:05:58 info: ::1 - - [04/Jul/2025:10:35:58 +0000] "GET /courses HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:06:06 info: ::1 - - [04/Jul/2025:10:36:06 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:06:09 error: Error: Table 'lms1.combined_scores_view' doesn't exist
+    at PromisePool.query (E:\lms_git\LMS\LMS\lmsserver\node_modules\mysql2\promise.js:356:22)
+    at E:\lms_git\LMS\LMS\lmsserver\routes\reports.js:69:33
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:328:13)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+2025-07-04 16:06:09 info: ::1 - - [04/Jul/2025:10:36:09 +0000] "POST /reports HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:13:26 error: Error: Table 'lms1.combined_scores_view' doesn't exist
+    at PromisePool.query (E:\lms_git\LMS\LMS\lmsserver\node_modules\mysql2\promise.js:356:22)
+    at E:\lms_git\LMS\LMS\lmsserver\routes\reports.js:69:33
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:328:13)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+2025-07-04 16:13:26 info: ::1 - - [04/Jul/2025:10:43:26 +0000] "POST /reports HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:13:38 info: ::1 - - [04/Jul/2025:10:43:38 +0000] "GET /test-master HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:13:42 error: Error: Table 'lms1.combined_scores_view' doesn't exist
+    at PromisePool.query (E:\lms_git\LMS\LMS\lmsserver\node_modules\mysql2\promise.js:356:22)
+    at E:\lms_git\LMS\LMS\lmsserver\routes\reports.js:69:33
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:328:13)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+2025-07-04 16:13:42 info: ::1 - - [04/Jul/2025:10:43:42 +0000] "POST /reports HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:13:56 error: Error: Table 'lms1.combined_scores_view' doesn't exist
+    at PromisePool.query (E:\lms_git\LMS\LMS\lmsserver\node_modules\mysql2\promise.js:356:22)
+    at E:\lms_git\LMS\LMS\lmsserver\routes\reports.js:69:33
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:328:13)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+2025-07-04 16:13:56 info: ::1 - - [04/Jul/2025:10:43:56 +0000] "POST /reports HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:14:06 error: Error: Table 'lms1.combined_scores_view' doesn't exist
+    at PromisePool.query (E:\lms_git\LMS\LMS\lmsserver\node_modules\mysql2\promise.js:356:22)
+    at E:\lms_git\LMS\LMS\lmsserver\routes\reports.js:69:33
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:328:13)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+2025-07-04 16:14:06 info: ::1 - - [04/Jul/2025:10:44:06 +0000] "POST /reports HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:16:42 info: ::1 - - [04/Jul/2025:10:46:42 +0000] "GET /test-master HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:23:33 info: ::1 - - [04/Jul/2025:10:53:33 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:24:11 info: ::1 - - [04/Jul/2025:10:54:11 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:25:04 error: Error: Table 'lms1.combined_scores_view' doesn't exist
+    at PromisePool.query (E:\lms_git\LMS\LMS\lmsserver\node_modules\mysql2\promise.js:356:22)
+    at E:\lms_git\LMS\LMS\lmsserver\routes\reports.js:69:33
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:328:13)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+2025-07-04 16:25:04 info: ::1 - - [04/Jul/2025:10:55:04 +0000] "POST /reports HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:25:19 info: ::1 - - [04/Jul/2025:10:55:19 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:25:21 error: Error: Table 'lms1.combined_scores_view' doesn't exist
+    at PromisePool.query (E:\lms_git\LMS\LMS\lmsserver\node_modules\mysql2\promise.js:356:22)
+    at E:\lms_git\LMS\LMS\lmsserver\routes\reports.js:69:33
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:328:13)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+2025-07-04 16:25:21 info: ::1 - - [04/Jul/2025:10:55:21 +0000] "POST /reports HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:25:23 info: ::1 - - [04/Jul/2025:10:55:23 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:25:25 error: Error: Table 'lms1.combined_scores_view' doesn't exist
+    at PromisePool.query (E:\lms_git\LMS\LMS\lmsserver\node_modules\mysql2\promise.js:356:22)
+    at E:\lms_git\LMS\LMS\lmsserver\routes\reports.js:69:33
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:328:13)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+2025-07-04 16:25:25 info: ::1 - - [04/Jul/2025:10:55:25 +0000] "POST /reports HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:25:27 info: ::1 - - [04/Jul/2025:10:55:27 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:25:29 error: Error: Table 'lms1.combined_scores_view' doesn't exist
+    at PromisePool.query (E:\lms_git\LMS\LMS\lmsserver\node_modules\mysql2\promise.js:356:22)
+    at E:\lms_git\LMS\LMS\lmsserver\routes\reports.js:69:33
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:328:13)
+    at E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\lms_git\LMS\LMS\lmsserver\node_modules\express\lib\router\index.js:280:10)
+2025-07-04 16:25:29 info: ::1 - - [04/Jul/2025:10:55:29 +0000] "POST /reports HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:25:44 info: ::1 - - [04/Jul/2025:10:55:44 +0000] "GET /test-master HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:36:16 info: ::1 - - [04/Jul/2025:11:06:16 +0000] "POST /login HTTP/1.1" 200 270 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:36:16 info: ::1 - - [04/Jul/2025:11:06:16 +0000] "GET /companies HTTP/1.1" 403 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:36:16 info: ::1 - - [04/Jul/2025:11:06:16 +0000] "GET /companies HTTP/1.1" 403 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:36:28 info: ::1 - - [04/Jul/2025:11:06:28 +0000] "GET /companies HTTP/1.1" 200 1273 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:36:28 info: ::1 - - [04/Jul/2025:11:06:28 +0000] "GET /companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:36:33 info: ::1 - - [04/Jul/2025:11:06:33 +0000] "GET /companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:36:33 info: ::1 - - [04/Jul/2025:11:06:33 +0000] "GET /companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:36:34 info: ::1 - - [04/Jul/2025:11:06:34 +0000] "GET /companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:36:34 info: ::1 - - [04/Jul/2025:11:06:34 +0000] "GET /companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:36:35 info: ::1 - - [04/Jul/2025:11:06:35 +0000] "GET /companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:36:35 info: ::1 - - [04/Jul/2025:11:06:35 +0000] "GET /companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:36:38 info: ::1 - - [04/Jul/2025:11:06:38 +0000] "GET /test-master HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:36:38 info: ::1 - - [04/Jul/2025:11:06:38 +0000] "GET /test-master HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:36:40 info: ::1 - - [04/Jul/2025:11:06:40 +0000] "GET /test-master/13 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:36:45 info: ::1 - - [04/Jul/2025:11:06:45 +0000] "POST /test-answers-score HTTP/1.1" 201 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:36:48 info: ::1 - - [04/Jul/2025:11:06:48 +0000] "GET /others/student_trainings/3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:36:48 info: ::1 - - [04/Jul/2025:11:06:48 +0000] "GET /others/student_trainings/3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:36:51 info: ::1 - - [04/Jul/2025:11:06:51 +0000] "GET /others/student_trainings_tests/3/3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:36:55 info: ::1 - - [04/Jul/2025:11:06:55 +0000] "GET /test-answers-score/12/3 HTTP/1.1" 200 395 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:37:01 info: ::1 - - [04/Jul/2025:11:07:01 +0000] "GET /test-answers-score/13/3 HTTP/1.1" 200 265 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:37:03 info: ::1 - - [04/Jul/2025:11:07:03 +0000] "GET /test-answers-score/12/3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:37:06 info: ::1 - - [04/Jul/2025:11:07:06 +0000] "GET /test-answers-score/13/3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:37:19 info: ::1 - - [04/Jul/2025:11:07:19 +0000] "POST /login HTTP/1.1" 200 263 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:37:19 info: ::1 - - [04/Jul/2025:11:07:19 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:37:19 info: ::1 - - [04/Jul/2025:11:07:19 +0000] "GET /roles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:37:19 info: ::1 - - [04/Jul/2025:11:07:19 +0000] "GET /companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:37:19 info: ::1 - - [04/Jul/2025:11:07:19 +0000] "GET /users HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:37:19 info: ::1 - - [04/Jul/2025:11:07:19 +0000] "GET /roles HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:37:19 info: ::1 - - [04/Jul/2025:11:07:19 +0000] "GET /companies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:37:23 info: ::1 - - [04/Jul/2025:11:07:23 +0000] "GET /test-master HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-07-04 16:41:08 info: ::1 - - [04/Jul/2025:11:11:08 +0000] "GET /test-master HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
